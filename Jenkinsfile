@@ -2,9 +2,9 @@ pipeline {
     agent any
 
 stages{
-  stage('Build') {
+  stage('Buld') {
     steps{
-      sh 'g++ -o woring working.cpp'
+      sh 'g++ -o working working.cpp'
     }
   }
 
